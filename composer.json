@@ -19,9 +19,11 @@
   } ],
   "extra" : {
     "name" : "custom-query-inheritance",
-    "class" : "CustomQueryInheritance\\Behavior\\InheritanceBaseBehavior"
+    "class" : "\\CustomQueryInheritance\\Behavior\\InheritanceBaseBehavior"
   },
   "autoload" : {
-    "classmap" : [ "src/" ]
+    "psr-4" : {
+        "\\CustomQueryInheritance\\Behavior\\": "src/"
+    }
   }
 }
