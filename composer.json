@@ -1,27 +1,27 @@
 {
-  "name" : "fizzle81/query-inheritance-base-behavior",
+  "name" : "chq81/query-inheritance-base-behavior",
   "description" : "Propel 2 Query Inheritance Behavior to provide generic base query class for query inheritance objects",
-  "type" : "propel-behavior",
   "version" : "1.0",
-  "license" : "MIT",
-  "keywords" : [ "propel", "query", "inheritance", "base", "behavior" ],
+  "require" : {
+    "propel/propel" : "dev-master",
+    "chq81/query-inheritance-behavior-builder" : "dev-master"
+  },
+  "repositories" : [ {
+    "type" : "git",
+    "url" : "https://github.com/chq81/QueryInheritanceBehaviorBuilder"
+  } ],
   "authors" : [ {
     "name" : "Christoph Quadt",
     "email" : "christoph@quadtrilogy.de"
   } ],
-  "require" : {
-    "propel/propel" : "dev-master",
-    "fizzle81/query-inheritance-behavior-builder" : "dev-master"
-  },
-  "repositories" : [ {
-    "type" : "git",
-    "url" : "https://github.com/Fizzle81/QueryInheritanceBehaviorBuilder"
-  } ],
+  "keywords" : [ "propel", "query", "inheritance", "base", "behavior" ],
   "extra" : {
     "name" : "custom-query-inheritance",
     "class" : "CustomQueryInheritance\\Behavior\\InheritanceBaseBehavior"
   },
   "autoload" : {
     "classmap" : [ "src/" ]
-  }
+  },
+  "license" : "MIT",
+  "type" : "propel-behavior"
 }

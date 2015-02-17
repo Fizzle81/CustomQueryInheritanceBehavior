@@ -1,6 +1,6 @@
 <?php
 
-namespace CustomQueryInheritance\Behavior;
+namespace chq81\CustomQueryInheritance\Behavior;
 
 use Propel\Generator\Model\Behavior;
 use Propel\Generator\Builder\Om\ClassTools;
