@@ -1,7 +1,6 @@
 {
   "name" : "chq81/query-inheritance-base-behavior",
   "description" : "Propel 2 Query Inheritance Behavior to provide generic base query class for query inheritance objects",
-  "version" : "1.0",
   "require" : {
     "propel/propel" : "dev-master",
     "chq81/query-inheritance-behavior-builder" : "dev-master"

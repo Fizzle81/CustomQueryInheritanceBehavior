@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "24c5a12fa2780d4df1ad7b13ee7c3aeb",
+    "hash": "8be3de104d81f2b1d6907aabf0e38205",
     "packages": [
         {
             "name": "chq81/query-inheritance-behavior-builder",
@@ -12,7 +12,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chq81/QueryInheritanceBehaviorBuilder",
-                "reference": "59ac68c3fb0b9208b6e513ac66727290521b993b"
+                "reference": "7931ab76058e29ffdfbb1be39a1cbfbef9eaaf2f"
             },
             "require": {
                 "propel/propel": "dev-master"
@@ -39,7 +39,7 @@
                 "query",
                 "single"
             ],
-            "time": "2015-02-17 14:49:30"
+            "time": "2015-02-17 15:41:04"
         },
         {
             "name": "propel/propel",
