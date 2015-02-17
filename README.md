@@ -35,7 +35,7 @@ Requirements
 This behavior requires
 
 * [Propel2](https://github.com/propelorm/Propel2) >= 2.0@dev
-* [QueryInheritanceBehaviorBuilder](https://github.com/fizzle81/QueryInheritanceBehaviorBuilder) >= dev-master
+* [QueryInheritanceBehaviorBuilder](https://github.com/fizzle81/QueryInheritanceBehaviorBuilder) >= 1.0.0
 
 
 Installation
