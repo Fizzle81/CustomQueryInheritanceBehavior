@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "07d9f3bdca96115affad72c9a9cb8a1a",
+    "hash": "82abf0e4118809dbe7826c80d91c740f",
     "packages": [
         {
             "name": "fizzle81/query-inheritance-behavior-builder",
