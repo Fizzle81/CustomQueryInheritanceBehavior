@@ -32,7 +32,7 @@ FantasyBookQuery
 Requirements
 ------------
 
-This builder requires
+This behavior requires
 
 * [Propel2](https://github.com/propelorm/Propel2) >= 2.0@dev
 * [QueryInheritanceBehaviorBuilder](https://github.com/fizzle81/QueryInheritanceBehaviorBuilder) >= dev-master
@@ -45,7 +45,7 @@ To enable the builder, you need to
 
 1. reference the QueryInheritanceBehaviorBuilder as a custom builder in the propel settings:
 ```ini
-propel.generator.objectModel.builders.queryinheritance = CustomQueryInheritance\\Builder\\CustomQuerySingleInheritanceBuilder
+propel.generator.objectModel.builders.queryinheritance = chq81\\CustomQueryInheritance\\Builder\\CustomQuerySingleInheritanceBuilder
 ```
 
 2a. enable the behavior in the schema.xml for inheriting from the default query class (BookQuery):
