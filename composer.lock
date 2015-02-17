@@ -12,7 +12,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Fizzle81/QueryInheritanceBehaviorBuilder",
-                "reference": "2d9b8a7f21b579f462b95eb281bbc818d7c0d5e6"
+                "reference": "a5ef0787c00b5eaa1fb3d01ba464b15c0cf35068"
             },
             "require": {
                 "propel/propel": "dev-master"
@@ -39,7 +39,7 @@
                 "query",
                 "single"
             ],
-            "time": "2015-02-17 10:06:30"
+            "time": "2015-02-17 10:31:56"
         },
         {
             "name": "propel/propel",
