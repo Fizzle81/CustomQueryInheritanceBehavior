@@ -4,15 +4,21 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8be3de104d81f2b1d6907aabf0e38205",
+    "hash": "a9bfb9f004a4f8f95308b67348d2d06e",
     "packages": [
         {
             "name": "chq81/query-inheritance-behavior-builder",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/chq81/QueryInheritanceBehaviorBuilder",
+                "url": "https://github.com/chq81/QueryInheritanceBehaviorBuilder.git",
                 "reference": "7931ab76058e29ffdfbb1be39a1cbfbef9eaaf2f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chq81/QueryInheritanceBehaviorBuilder/zipball/7931ab76058e29ffdfbb1be39a1cbfbef9eaaf2f",
+                "reference": "7931ab76058e29ffdfbb1be39a1cbfbef9eaaf2f",
+                "shasum": ""
             },
             "require": {
                 "propel/propel": "dev-master"
@@ -23,6 +29,7 @@
                     "src/"
                 ]
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -524,8 +531,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "propel/propel": 20,
-        "chq81/query-inheritance-behavior-builder": 20
+        "propel/propel": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

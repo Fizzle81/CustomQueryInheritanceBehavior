@@ -3,12 +3,8 @@
   "description" : "Propel 2 Query Inheritance Behavior to provide generic base query class for query inheritance objects",
   "require" : {
     "propel/propel" : "dev-master",
-    "chq81/query-inheritance-behavior-builder" : "dev-master"
+    "chq81/query-inheritance-behavior-builder" : "=1.0.0"
   },
-  "repositories" : [ {
-    "type" : "git",
-    "url" : "https://github.com/chq81/QueryInheritanceBehaviorBuilder"
-  } ],
   "authors" : [ {
     "name" : "Christoph Quadt",
     "email" : "christoph@quadtrilogy.de"
@@ -21,6 +17,6 @@
   "autoload" : {
     "classmap" : [ "src/" ]
   },
-  "license" : "MIT",
-  "type" : "propel-behavior"
+  "type" : "propel-behavior",
+  "license" : "MIT"
 }
