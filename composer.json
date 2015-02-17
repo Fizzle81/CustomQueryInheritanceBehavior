@@ -2,8 +2,8 @@
   "name" : "chq81/query-inheritance-base-behavior",
   "description" : "Propel 2 Query Inheritance Behavior to provide generic base query class for query inheritance objects",
   "require" : {
-    "propel/propel" : "dev-master",
-    "chq81/query-inheritance-behavior-builder" : "=1.0.0"
+    "chq81/query-inheritance-behavior-builder" : "=1.0.0",
+    "propel/propel" : "@dev"
   },
   "authors" : [ {
     "name" : "Christoph Quadt",
