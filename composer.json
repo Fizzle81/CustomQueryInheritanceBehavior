@@ -17,7 +17,7 @@
   "keywords" : [ "propel", "query", "inheritance", "base", "behavior" ],
   "extra" : {
     "name" : "custom-query-inheritance",
-    "class" : "CustomQueryInheritance\\Behavior\\InheritanceBaseBehavior"
+    "class" : "chq81\\CustomQueryInheritance\\Behavior\\InheritanceBaseBehavior"
   },
   "autoload" : {
     "classmap" : [ "src/" ]

@@ -56,7 +56,7 @@ class InheritanceBaseBehaviorTest extends \PHPUnit_Framework_TestCase {
                 'generator' => array(
                     'objectModel' => array(
                         'builders' => array(
-                            'queryinheritance' => 'QueryInheritance\\Builder\\QueryInheritanceBehaviorBuilder'
+                            'queryinheritance' => 'chq81\\QueryInheritance\\Builder\\QueryInheritanceBehaviorBuilder'
                         )
                     )
                 )
