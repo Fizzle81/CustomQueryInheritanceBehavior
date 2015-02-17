@@ -2,7 +2,7 @@
   "name" : "fizzle81/query-inheritance-base-behavior",
   "description" : "Propel 2 Query Inheritance Behavior to provide generic base query class for query inheritance objects",
   "type" : "propel-behavior",
-  "version" : "0.1",
+  "version" : "1.0",
   "license" : "MIT",
   "keywords" : [ "propel", "query", "inheritance", "base", "behavior" ],
   "authors" : [ {
