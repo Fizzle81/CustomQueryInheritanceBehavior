@@ -14,14 +14,14 @@ Functionality
 -------------
 If there is a single inheritance set on a propel class, the current way of inheriting is:
 
-FantasyBookQuery
+    FantasyBookQuery
     => BaseFantasyBookQuery
     => BaseBookQuery
     => ModelCriteria
 
 This Builder provides the following setup:
 
-FantasyBookQuery
+    FantasyBookQuery
     => BaseFantasyBookQuery
     => **BookQuery**
        or
