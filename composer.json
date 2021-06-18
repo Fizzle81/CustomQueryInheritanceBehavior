@@ -1,27 +1,37 @@
 {
-  "name" : "chq81/query-inheritance-base-behavior",
-  "description" : "Propel 2 Query Inheritance Behavior to provide generic base query class for query inheritance objects",
-  "type" : "propel-behavior",
-  "license" : "MIT",
-  "authors" : [ {
-    "name" : "Christoph Quadt",
-    "email" : "christoph@quadtrilogy.de"
-  } ],
-  "keywords" : [ "propel", "query", "inheritance", "base", "behavior" ],
-  "require" : {
-    "chq81/query-inheritance-behavior-builder": "dev-update-dependency",
-    "propel/propel": "@dev"
-  },
-  "extra" : {
-    "name" : "custom-query-inheritance",
-    "class" : "chq81\\CustomQueryInheritance\\Behavior\\InheritanceBaseBehavior"
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true,
-  "config": {
-    "sort-packages": true
-  },
-  "autoload" : {
-    "classmap" : [ "src/" ]
-  }
+    "name": "chq81/query-inheritance-base-behavior",
+    "description": "Propel 2 Query Inheritance Behavior to provide generic base query class for query inheritance objects",
+    "type": "propel-behavior",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christoph Quadt",
+            "email": "christoph@quadtrilogy.de"
+        }
+    ],
+    "keywords": [
+        "propel",
+        "query",
+        "inheritance",
+        "base",
+        "behavior"
+    ],
+    "require": {
+        "chq81/query-inheritance-behavior-builder": "^1.0",
+        "propel/propel": "dev-master || 2.0.0-alpha10"
+    },
+    "extra": {
+        "name": "custom-query-inheritance",
+        "class": "chq81\\CustomQueryInheritance\\Behavior\\InheritanceBaseBehavior"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
 }

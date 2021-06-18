@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "47c7c5a9ce96ee4dd01c121678b637ae",
+    "content-hash": "e6c4632153a2b623d4bdaf40c5f52b20",
     "packages": [
         {
             "name": "chq81/query-inheritance-behavior-builder",
-            "version": "dev-update-dependency",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/chq81/QueryInheritanceBehaviorBuilder.git",
-                "reference": "2e5599ec372da8613f58b4ee18e5e2a4a9747cff"
+                "reference": "58679870370284b8589e38555405ac721ac94f81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chq81/QueryInheritanceBehaviorBuilder/zipball/2e5599ec372da8613f58b4ee18e5e2a4a9747cff",
-                "reference": "2e5599ec372da8613f58b4ee18e5e2a4a9747cff",
+                "url": "https://api.github.com/repos/chq81/QueryInheritanceBehaviorBuilder/zipball/58679870370284b8589e38555405ac721ac94f81",
+                "reference": "58679870370284b8589e38555405ac721ac94f81",
                 "shasum": ""
             },
             "require": {
@@ -48,49 +48,43 @@
             ],
             "support": {
                 "issues": "https://github.com/chq81/QueryInheritanceBehaviorBuilder/issues",
-                "source": "https://github.com/chq81/QueryInheritanceBehaviorBuilder/tree/update-dependency"
+                "source": "https://github.com/chq81/QueryInheritanceBehaviorBuilder/tree/1.0.1"
             },
-            "time": "2021-06-18T06:31:07+00:00"
+            "time": "2021-06-18T06:34:20+00:00"
         },
         {
             "name": "propel/propel",
-            "version": "dev-master",
+            "version": "2.0.0-alpha10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/propelorm/Propel2.git",
-                "reference": "5048947571cfcfeef59b18d4c973313e96c1d8d3"
+                "reference": "776f746747c62962f4b70b3a3ac1de2b249ffd35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/propelorm/Propel2/zipball/5048947571cfcfeef59b18d4c973313e96c1d8d3",
-                "reference": "5048947571cfcfeef59b18d4c973313e96c1d8d3",
+                "url": "https://api.github.com/repos/propelorm/Propel2/zipball/776f746747c62962f4b70b3a3ac1de2b249ffd35",
+                "reference": "776f746747c62962f4b70b3a3ac1de2b249ffd35",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2",
+                "php": ">=7.1",
                 "psr/log": "^1.0",
-                "symfony/config": "^3.4.0||^4.0.0||^5.0.0",
-                "symfony/console": "^3.4.0||^4.0.0||^5.0.0",
-                "symfony/filesystem": "^3.4.0||^4.0.0||^5.0.0",
-                "symfony/finder": "^3.4.0||^4.0.0||^5.0.0",
-                "symfony/translation": "^3.4.0||^4.0.0||^5.0.0",
-                "symfony/validator": "^3.4.0||^4.0.0||^5.0.0",
-                "symfony/yaml": "^3.4.0||^4.0.0||^5.0.0"
+                "symfony/config": "^2.7.0||^3.0.0||^4.0.0||^5.0.0",
+                "symfony/console": "^2.7.0||^3.0.0||^4.0.0||^5.0.0",
+                "symfony/filesystem": "^2.7.0||^3.0.0||^4.0.0||^5.0.0",
+                "symfony/finder": "^2.7.0||^3.0.0||^4.0.0||^5.0.0",
+                "symfony/translation": "^2.7.0||^3.0.0||^4.0.0||^5.0.0",
+                "symfony/validator": "^2.7.0||^3.3.0||^4.0.0||^5.0.0",
+                "symfony/yaml": "^2.7.0||^3.3.0||^4.0.0||^5.0.0"
             },
             "require-dev": {
-                "ext-json": "*",
-                "ext-pdo": "*",
-                "mikey179/vfsstream": "^1.6",
                 "monolog/monolog": "^1.3",
                 "phpstan/phpstan": "^0.12.4",
-                "phpunit/phpunit": "^8.0.0||^9.0.0",
-                "psalm/phar": "4.2.1",
-                "spryker/code-sniffer": "^0.15.6"
+                "phpunit/phpunit": "^7.5.15"
             },
             "suggest": {
                 "monolog/monolog": "The recommended logging library to use with Propel."
             },
-            "default-branch": true,
             "bin": [
                 "bin/propel"
             ],
@@ -126,7 +120,7 @@
                 "issues": "https://github.com/propelorm/Propel2/issues",
                 "source": "https://github.com/propelorm/Propel2/tree/master"
             },
-            "time": "2021-06-14T22:15:17+00:00"
+            "time": "2020-07-13T12:20:41+00:00"
         },
         {
             "name": "psr/container",
@@ -1683,7 +1677,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "chq81/query-inheritance-behavior-builder": 20,
         "propel/propel": 20
     },
     "prefer-stable": true,
